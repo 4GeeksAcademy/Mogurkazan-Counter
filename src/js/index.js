@@ -10,3 +10,11 @@ import Home from "./component/home.jsx";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
+
+const reloj = 0;
+function secondsCounter(){
+    for (let i = 0; i <= 9; i++){
+        return reloj += i;
+    }
+}
+console.log(secondsCounter(reloj))
