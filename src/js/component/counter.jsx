@@ -21,6 +21,6 @@ const Seconds = (props) => {
 //imprimir el prop con el 0000 que falte
 //generar una funcion que cuente
 //modificar el componente con setInterval()
-//separar por
+//hacer las cards para los numeros.
 //
 export default Seconds;

@@ -11,10 +11,12 @@ import Home from "./component/home.jsx";
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
 
-const reloj = 0;
-function secondsCounter(){
-    for (let i = 0; i <= 9; i++){
-        return reloj += i;
-    }
+let num = 0;
+function contar(){
+    if (num < 10){
+        num ++;
+        console.log(num);
+    }else clearInterval(intervalId);
 }
-console.log(secondsCounter(reloj))
+
+const intervalId = setInterval(contar, 1000)
