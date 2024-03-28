@@ -10,7 +10,6 @@ import SecondsCounter from "./secondscounter";
 const Home = () => {
 	return (
 		<>
-			<h1>Probando</h1>
 			<SecondsCounter secs={1234567} nombre="juan" ciudad="madrid"/>
 		</>
 		
