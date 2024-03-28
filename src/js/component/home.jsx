@@ -1,6 +1,6 @@
 import React from "react";
 import SecondsCounter from "./secondscounter";
-import { Probando } from "./pruebas";
+
 
 
 //include images into your bundle

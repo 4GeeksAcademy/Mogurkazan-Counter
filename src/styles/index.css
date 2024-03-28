@@ -11,15 +11,22 @@
 
 */
 .cardNum {
-    width: 100px;
+    width: 150px;
     height: 200px;
     font-size: 100px;
     background-color: rgb(32, 32, 32);
     
+    
 }
 .cardClock {
-    width: 100px;
+    width: 200px;
     height: 200px;
     font-size: 100px;
-    background-color: white;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.reloj {
+    width: 1800px;
+    height: 250px;
+    margin-top: 90px;
 }
