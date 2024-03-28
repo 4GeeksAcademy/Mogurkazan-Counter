@@ -1,5 +1,5 @@
 import React from "react";
-import Seconds from "./counter";
+import SecondsCounter from "./secondscounter";
 import { Probando } from "./pruebas";
 
 
@@ -11,8 +11,7 @@ const Home = () => {
 	return (
 		<>
 			<h1>Probando</h1>
-			<Seconds secs={1234567} nombre="juan" ciudad="madrid"/>
-			<Probando/>
+			<SecondsCounter secs={1234567} nombre="juan" ciudad="madrid"/>
 		</>
 		
 	);

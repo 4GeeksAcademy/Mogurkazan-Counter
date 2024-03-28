@@ -10,3 +10,16 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.cardNum {
+    width: 100px;
+    height: 200px;
+    font-size: 100px;
+    background-color: rgb(32, 32, 32);
+    
+}
+.cardClock {
+    width: 100px;
+    height: 200px;
+    font-size: 100px;
+    background-color: white;
+}

@@ -4,19 +4,19 @@ import ReactDOM from "react-dom";
 
 // include your styles into the webpack bundle
 import "../styles/index.css";
+import SecondsCounter from "./component/secondscounter.jsx";
 
 //import your own components
-import Home from "./component/home.jsx";
+
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
-
-let num = 0;
-function contar(){
-    if (num < 10){
-        num ++;
-        console.log(num);
-    }else clearInterval(intervalId);
+setInterval(secondsCount, 1000)
+let contador = 0
+function secondsCount (){
+    contador = contador + 1
+    const conCeros = String(contador).padStart(6, '0');
+    const digitos = conCeros.split('').map(Number);
+    console.log(digitos[6])
+    //render
+    ReactDOM.render(<SecondsCounter secs={digitos}/>, document.querySelector("#app"));
 }
-
-const intervalId = setInterval(contar, 1000)
